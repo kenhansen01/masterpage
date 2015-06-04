@@ -1,66 +1,14 @@
-﻿#ms-designer-ribbon,
-#ms-designer-ribbon *,
-[class*=ms-] {
-	-webkit-box-sizing: content-box;
-	   -moz-box-sizing: content-box;
-	        box-sizing: content-box;
-}
-
-.page-image img {
-	width: 100%
-}
-
-.ms-promlink-button { padding:0 }
-
-.dbs-news .ms-webpart-chrome-title { background-color:  #538c3f; }
-	
-.ms-webpart-titleText.ms-webpart-titleText, .ms-webpart-titleText > a {	
-	color: #fff;
-	padding: 2px 8px; 
-}
-
-.cbs-picture3LinesContainer { padding-bottom: 5px }
-
-.cbs-pictureOnTopDataContainer, .cbs-pictureOnTopDataContainer > div, .cbs-picture3LinesDataContainer > div {
-	padding-top: 0
-}
-
-.cbs-picture3LinesImageContainer {
-	height: auto;
-	padding-left: 0 !important;
-	padding-right: 0 !important;
-}
-
-.cbs-picture3LinesImageContainer img {
-	width: 100%;
-}
-
-.cbs-picture3LinesDataContainer {
-	padding-left: 5px;
-	margin-left: 0;
-}
-
-
-.social-links img {
-	width: 90%;
-	margin: 5px auto;
-}
-
-.sidebar {
-	border: thin #C0C0C0 solid;
-}
-
-.nav-tiles-display, .branch-new-hires {
+﻿.nav-tiles-display, .branch-new-hires {
 	padding: 0 15px;
 }
 
-.dbs-nav-tile:before {
+.our-nav-tile:before {
 	content: "";
 	display: block;
 	padding-top: 100%;
 }
 
-.dbs-nav-block {
+.our-nav-block {
 	position: absolute;
 	top: 4%;
 	left: 4%;
@@ -68,7 +16,7 @@
 	right: 4%;
 }
 
-.dbs-nav-content {
+.our-nav-content {
 	position: relative;
 	display: block;
 	height: 100%;
@@ -76,7 +24,7 @@
 	margin: auto;
 }
 
-.dbs-nav-icon {
+.our-nav-icon {
 	position: relative;
 	display: block;
 	height: 45%;
@@ -84,13 +32,13 @@
 	margin: 10px auto;
 	padding-top: 10px;
 }
-.dbs-nav-icon img {
+.our-nav-icon img {
 	position: relative;
 	display: block;
 	max-height: 100%;
 	margin: 0 auto;
 }
-.dbs-nav-title h2 {
+.our-nav-title h2 {
 	margin: auto;
 	padding: 5px;
 	text-align: center;

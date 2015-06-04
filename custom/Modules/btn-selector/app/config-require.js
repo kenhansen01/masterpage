@@ -44,5 +44,5 @@
     requirejs(['sp_js','css'], function() {
         loadCss(rconfig.baseUrl + 'Modules/btn-selector/app/css/btn-selector.css');
         requirejs(['boot'], function () {});
-    )};
+    });
 });
